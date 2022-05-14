@@ -1,0 +1,13 @@
+.contenedor-padre {
+    display: flex;
+    border:20px;
+    
+}
+
+.cuadrado, .triangulo, .circulo {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    
+}
