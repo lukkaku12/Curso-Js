@@ -33,6 +33,14 @@ function areaCirculo(radio){
     return (radio * radio) * PI;
 }
 
+function alturaTrianguloIsosceles(lado1,lado2,base) {
+    if (lado1 === lado2 && base != lado1) {
+       return Math.sqrt(lado1**2 - base**2/4)
+    } else {
+        return 
+    }
+}
+
 function calcularPerímetro() {
 const input = document.getElementById("inputcuadrado");
 let value = input.value;
