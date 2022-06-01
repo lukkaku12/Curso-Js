@@ -10,7 +10,7 @@ arrayPepe = [
         return pepito.annio < 2021
     });
     /*mapeara en un array lo que le pidas de otro array, en este caso pedí mappear
-    del array pepe los hogares que tiene pepito en pepeNoPp*/
+    del array pepe la cantidad de los los hogares que tiene pepito en pepeNoPp*/
     var pepeNoPp = arrayPepe.map(function(propiedadPepito) {
         return propiedadPepito.hogar
     })
